@@ -56,7 +56,7 @@ for mac in "${!mac_to_user[@]}"; do #loop over array (predefined macs as keys)
 		if($DEBUG); then
   			echo "$DATE_NOW -- Mac is $last_seen_mac (${mac_to_user[$mac]}) at $ts which was $((($NOW-$ts)/60)) mins ago"
 		fi
-	done < <(jq -r '.data[] | (.mac, .last_seen)' <<<$RESP);
+	done < <(jq -r '.data[] | (.mac, .last_seen)' <<<$RESP); #parse json response and pipe to arrays
 done
 sleep $SLEEP_TIME
 done
