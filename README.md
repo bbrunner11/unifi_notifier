@@ -8,7 +8,7 @@ dependency on jq  https://stedolan.github.io/jq/ and bash 4.x
 
 notifications are sent via Pushover https://pushover.net 
 
-to run unattended: nohup bash unifi_whoshome.sh $ 
+to run unattended: nohup bash unifi_notifier.sh $ 
 
 TRIGGER_TIME should likely be left alone.  The Unifi Controller reports with questionalble precision.... don't go below 30 seconds
 
