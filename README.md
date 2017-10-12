@@ -2,6 +2,7 @@
 
 bash 4.x +
 
+dependency on jq  https://stedolan.github.io/jq/
 
 My first crack at Bash 4x AND the undocumented Unifi controller API
 
