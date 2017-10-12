@@ -5,6 +5,7 @@ My first crack at Bash 4x AND the undocumented Unifi controller API
 
 
 dependency on jq  https://stedolan.github.io/jq/ and bash 4.x
+
 notifications are sent via Pushover https://pushover.net 
 
 to run unattended: nohup bash unifi_whoshome.sh $ 
